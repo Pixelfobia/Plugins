@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
+  "apiVersion": 2,
+  "name": "px-theme-plus/page-header",
+  "title": "Page Header",
+  "category": "text",
+  "description": "Adds a page header",
+  "textdomain": "px-theme-plus",
+  "attributes": {
+		"content": {
+		"type": "string",
+    "default": ""
+		},
+    "showCategory": {
+      "type": "boolean",
+      "default": false
+    }
+	},
+  "editorScript": "file:./index.js",
+  "style": "file:./index.css"
+}
