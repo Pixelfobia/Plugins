@@ -1,0 +1,49 @@
+{
+  "$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/block.json",
+  "apiVersion": 2,
+  "name": "px-theme-plus/team-members-group",
+  "title": "Team Members Group",
+  "category": "text",
+  "description": "Adds a group for adding team members",
+  "textdomain": "px-theme-plus",
+  "attributes": {
+    "columns": {
+      "type": "number",
+      "default": 3
+    },
+    "imageShape": {
+      "type": "string",
+      "default": "hexagon"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./index.css",
+  "providesContext": {
+    "px-theme-plus/image-shape": "imageShape"
+  },
+  "example": {
+    "attributes": {
+      "columns": 2
+    },
+    "innerBlocks": [
+      {
+        "name": "px-theme-plus/team-member",
+        "attributes": {
+          "name": "John Doe",
+          "title": "CEO of px-theme",
+          "bio": "This is a short description of the team member.",
+          "imgURL": "https://fastly.picsum.photos/id/64/4326/2884.jpg?hmac=9_SzX666YRpR_fOyYStXpfSiJ_edO3ghlSRnH2w09Kg"
+        }
+      },
+      {
+        "name": "px-theme-plus/team-member",
+        "attributes": {
+          "name": "Jane Doe",
+          "title": "CEO of px-theme",
+          "bio": "This is a short description of the team member.",
+          "imgURL": "https://fastly.picsum.photos/id/64/4326/2884.jpg?hmac=9_SzX666YRpR_fOyYStXpfSiJ_edO3ghlSRnH2w09Kg"
+        }
+      }
+    ]
+  }
+}
