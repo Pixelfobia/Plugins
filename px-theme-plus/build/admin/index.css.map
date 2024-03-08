@@ -1,0 +1,1 @@
+{"version":3,"file":"admin/index.css","mappings":";;;AAAA;EACE,cAAc;EACd,mBAAmB;EACnB,gBAAgB;AAClB,C","sources":["webpack://px-theme-plus/./src/admin/main.css"],"sourcesContent":["#og-img-preview {\n  display: block;\n  margin-bottom: 20px;\n  max-width: 600px;\n}"],"names":[],"sourceRoot":""}
